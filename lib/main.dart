@@ -49,6 +49,21 @@ class _HomePageState extends State<HomePage> {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       SizedBox(height: 100,),
+                      Text("Welcome back this is sunil branch" ,style: TextStyle(fontSize: 20),),
+                      Text("How Are you",style: TextStyle(fontSize: 30),)
+                    ]
+                ),
+              ),
+
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                height: MediaQuery.of(context).size.height*0.3,
+                width: double.infinity,
+                color: Colors.lightBlue.withOpacity(0.3),
+                child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      SizedBox(height: 100,),
                       Text("Welcome back",style: TextStyle(fontSize: 20),),
                       Text("How Are you",style: TextStyle(fontSize: 30),)
                     ]
