@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       SizedBox(height: 100,),
-                      Text("Welcome back",style: TextStyle(fontSize: 20),),
+                      Text("Welcome back new user",style: TextStyle(fontSize: 20),),
                       Text("How Are you",style: TextStyle(fontSize: 30),)
                     ]
                 ),
